@@ -1,0 +1,2 @@
+# shinystyle
+Aesthetic shiny applications
