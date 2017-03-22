@@ -5,7 +5,11 @@ body {
     height: 100vh; /*Sets the height of the image to that of the browser*/
 }
 
+@import url('//fonts.googleapis.com/css?family=Roboto'); /*Imports Roboto from Google fonts*/
+
+
 h2 {
+    font-family: 'Roboto', sans-serif; /*Sets font to Roboto*/
     font-size: 60px; /*Sets font size to 60 pixels*/
     color: #fff; /*Changes font color to white or hex #fff*/
     border-style: solid; /*Creates a border around h2 elements*/
