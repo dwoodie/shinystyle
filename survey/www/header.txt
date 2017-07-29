@@ -1,0 +1,6 @@
+<div class="jumbotron text-center">
+  <div class="mytitle">
+  <h1>Survey Results</h1> 
+  <p>The votes are in</p> 
+  </div>
+</div>

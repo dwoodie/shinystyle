@@ -1,0 +1,6 @@
+<div class="container mycontainer">
+  <h2>The Data</h2>
+  <p>
+  In a week, I got 43 responses to the survey. The data can be explored below.
+  </p>
+</div>

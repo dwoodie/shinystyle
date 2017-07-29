@@ -1,0 +1,47 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a  class="navbar-brand" href="http://bambooanalytics.co/">	  
+	  	<img id="logo" src="photos/Bamboo_Logo_Color_Reverse.png" alt="bamboo" style="height:60px; margin-top: -20px;">
+	  </a>
+    </div>
+  </div>
+</nav>						
+								
+<script>
+$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#introduction');
+   var offset = startchange.offset().top - 100;
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset) {
+          $('.navbar').css({
+		  "background-color": "#fff",
+		  "border-bottom": "1px solid"});
+		  $('.navbar-brand img').attr('src','photos/Bamboo_Logo_Color_Positive.png');
+		  $('.navbar-nav li a:hover, .navbar-nav li.active a').css({"color": "#0a2040"});
+		  $('.navbar-default .navbar-toggle').css({
+			  "border-style": "solid !important",
+			  "color": "#d5d5d5"});
+		  $('.navbar li a, .navbar .navbar-brand').css({"color":"#0a2040"});
+       } else {
+          $('.navbar').css({
+		  "background-color": "transparent",
+		  "border-bottom": "none"
+		  });
+		  $('.navbar-brand img').attr('src', 'photos/Bamboo_Logo_Color_Reverse.png');
+		  $('.navbar-nav li a:hover, .navbar-nav li.active a').css({"color": "#0a2040"});
+		  $('.navbar-default .navbar-toggle').css({
+			  "border-color": "transparent",
+			  "color": "#fff"});
+		  $('.navbar li a, .navbar .navbar-brand').css({"color":"#fff"});
+       }
+   });
+});
+</script>

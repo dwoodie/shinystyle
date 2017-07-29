@@ -1,0 +1,76 @@
+<div class="container mycontainer">
+    <h2>The Survey</h2>
+    <br />
+    <p>
+    To address this issue, a survey was recently sent out to the meetup     group to gather thoughts on a few possible solutions. Of the 1200       members, about 40 responded. Questions below with answer options in     the tool tips:
+
+  <h4>
+  1. How many years have you been using R?
+  <a href="#" data-html="true"" data-toggle="tooltip" 
+    title="0-1 Years <br />
+          2-3 Years <br />
+          4-5 Years <br />
+          5 or More Years <br />">
+  Answer options.</a>
+  
+  </h4>
+  
+  
+  <h4>2. Which would you find more helpful?
+    <a href="#" data-html="true"" data-toggle="tooltip" 
+    title="
+      A) An additional 10-15 minute lightning talk with each meetup to specifically go over an introductory topic. <br /><br />
+  B) A monthly workshop (separate from the meetup) which includes an ~hour long tutorial plus office hours to discuss additional questions. <br /><br />
+  C) Other (please specify) <br />
+    
+    ">
+  Answer options.</a>
+  
+  </h4>
+
+
+  <h4>3. If you selected workshop, how should this be funded?
+      <a href="#" data-html="true"" data-toggle="tooltip" 
+    title="
+  A) Make it donation based. <br />
+  B) Charge a low fee (e.g. $20). <br />
+  C) Other (please specify).
+    
+    ">
+  Answer options.</a>
+  
+  
+  </h4>
+
+  
+    <h4>4. Which topics would you be interested in learning more about? Select any that apply.
+    
+          <a href="#" data-html="true"" data-toggle="tooltip" 
+    title="
+  Data Visualization <br />
+  Neural Networks <br />
+  Data Reporting <br />
+  Dashboards <br />
+  Machine Learning <br />
+  Databases <br />
+  Data Transformations <br />
+  Spark <br />
+  Linear Modeling <br />
+  git <br />
+  Graphical Models <br />
+  R/RStudio <br />
+    ">
+  Answer options.</a>
+    
+    </h4>
+
+  </p>
+</div>
+
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>

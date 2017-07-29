@@ -1,0 +1,9 @@
+<div class="container mycontainer">
+  <h2>In Closing</h2>
+  <p>
+  As shown in the data, mostly people that are fairly new to the R language responded. Additionally, these folks are most interested in a short monthly workshop at a low fee. The topics that these folks are most interested in is using RStudio, data visualization, and neural networks.
+  </p>
+    <p>
+  For the more senior folks, they are interested in having an additional lightning talk that focuses specifically for introducing a new concept. Additionally, these folks are also very interested in data visualization and neural networks but also interested in environments to scale analytics (i.e. Spark and Databases).
+  </p>
+</div>

@@ -1,0 +1,8 @@
+<div id="introduction" class="container mycontainer">
+  <h2>Introducing New R Topics to People</h2>
+  <br />
+  <p>
+  R meetups are a great way for people to learn more about new developments and applications with the R language. That said, many people that attend meetups are often interested in more rigorous forms of instructions like workshops or courses. Many beginners are interested in learning more about the basics of developing with the language where some of the more seasoned developers are interested in specific use cases. While short talks work great for folks that have a solid foundation that prepares them for easy absorption of a topic, there's still a shortcoming.
+  </p>
+  <br />
+</div>

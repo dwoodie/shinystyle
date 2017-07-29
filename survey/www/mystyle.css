@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  border-style: solid;
+  display: inline;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  text-decoration: underline;
+}
+
+.mytitle {
+  margin-top: 75px;
+}
+.jumbotron { 
+    background-image: url('meeting.jpg');
+    margin-left: -200px;
+    margin-right:-200px;
+    height: 300px;
+    color: #ffffff;
+}
+
+.mycontainer {
+  max-width: 700px;
+  text-align: left;
+}
+
+
+#myContent {
+  padding-top: 20px; /* Extends div 20 pixels upward*/
+  padding-right: 20px; /* Extends div 20 pixels to the right */
+  padding-left: 20px; /* Extends div 20 pixels to the left*/
+  max-width: 1000px; /* Makes max width of div a thousand pixels*/
+  margin: auto; /*Centers div content*/
+}
+
+.navbar {
+    margin-bottom: 0;
+  background:transparent;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 3 !important;
+  height: 40px;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0a2040 !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
